@@ -12,6 +12,7 @@ import com.sophia.question_service.model.Question;
 public interface QuestionRepository extends JpaRepository<Question, Integer>{
     List<Question> findByCategory(String category);//as category is also a field, JPA is smart enough to fetch the data based on the category provided
 
-    @Query(value="SELECT * FROM question q WHERE q.category=:category ORDER BY RANDOM() LIMIT :numQ", nativeQuery=true)
-    List<Question> findRandomQuestionsByCategory(int numQ, String category);
+    //we only need question ids
+    @Query(value="SELECT q.id FROM question q WHERE q.category=:category ORDER BY RANDOM() LIMIT :numQ", nativeQuery=true)
+    List<Integer> findRandomQuestionsByCategory(int numQ, String category);
 }

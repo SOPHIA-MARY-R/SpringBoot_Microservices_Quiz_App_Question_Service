@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Which keyword is used to create an object in Java?",
+    "choice1": "new",
+    "choice2": "this",
+    "choice3": "super",
+    "choice4": "class",
+    "answer": "new",
+    "category": "Java"
+  },
+  {
+    "question": "Which access modifier makes a member accessible only within its own class?",
+    "choice1": "public",
+    "choice2": "private",
+    "choice3": "protected",
+    "choice4": "default",
+    "answer": "private",
+    "category": "Java"
+  },
+  {
+    "question": "Which method is the entry point of a Java application?",
+    "choice1": "main",
+    "choice2": "start",
+    "choice3": "run",
+    "choice4": "init",
+    "answer": "main",
+    "category": "Java"
+  },
+  {
+    "question": "Which exception is thrown when dividing by zero for integers in Java?",
+    "choice1": "ArithmeticException",
+    "choice2": "NullPointerException",
+    "choice3": "IOException",
+    "choice4": "IndexOutOfBoundsException",
+    "answer": "ArithmeticException",
+    "category": "Java"
+  },
+  {
+    "question": "What is the result type of the expression 3 / 2 in Python 3?",
+    "choice1": "1",
+    "choice2": "1.5",
+    "choice3": "1.0",
+    "choice4": "2",
+    "answer": "1.5",
+    "category": "Python"
+  },
+  {
+    "question": "Which keyword is used to define a function in Python?",
+    "choice1": "func",
+    "choice2": "def",
+    "choice3": "function",
+    "choice4": "lambda",
+    "answer": "def",
+    "category": "Python"
+  },
+  {
+    "question": "How do you create an empty list in Python?",
+    "choice1": "{}",
+    "choice2": "[]",
+    "choice3": "()",
+    "choice4": "<>",
+    "answer": "[]",
+    "category": "Python"
+  },
+  {
+    "question": "Which statement is used for exception handling in Python?",
+    "choice1": "try/except",
+    "choice2": "catch/finally",
+    "choice3": "try/catch",
+    "choice4": "handle/except",
+    "answer": "try/except",
+    "category": "Python"
+  },
+  {
+    "question": "Which header file is required for printf in C?",
+    "choice1": "stdio.h",
+    "choice2": "stdlib.h",
+    "choice3": "string.h",
+    "choice4": "math.h",
+    "answer": "stdio.h",
+    "category": "C"
+  },
+  {
+    "question": "What is the file extension for C source files?",
+    "choice1": ".c",
+    "choice2": ".cpp",
+    "choice3": ".java",
+    "choice4": ".py",
+    "answer": ".c",
+    "category": "C"
+  },
+  {
+    "question": "Which symbol is used to denote a pointer in C?",
+    "choice1": "&",
+    "choice2": "*",
+    "choice3": "%",
+    "choice4": "$",
+    "answer": "*",
+    "category": "C"
+  },
+  {
+    "question": "Which function is used to allocate dynamic memory in C?",
+    "choice1": "malloc()",
+    "choice2": "new()",
+    "choice3": "alloc()",
+    "choice4": "reserve()",
+    "answer": "malloc()",
+    "category": "C"
+  },
+  {
+    "question": "Which tag is used for the largest heading in HTML?",
+    "choice1": "<h1>",
+    "choice2": "<h6>",
+    "choice3": "<head>",
+    "choice4": "<header>",
+    "answer": "<h1>",
+    "category": "HTML"
+  },
+  {
+    "question": "Which attribute specifies alternate text for an image in HTML?",
+    "choice1": "alt",
+    "choice2": "src",
+    "choice3": "title",
+    "choice4": "href",
+    "answer": "alt",
+    "category": "HTML"
+  },
+  {
+    "question": "Which tag is used to create a hyperlink in HTML?",
+    "choice1": "<a>",
+    "choice2": "<link>",
+    "choice3": "<href>",
+    "choice4": "<url>",
+    "answer": "<a>",
+    "category": "HTML"
+  },
+  {
+    "question": "Which tag defines an unordered list in HTML?",
+    "choice1": "<ol>",
+    "choice2": "<ul>",
+    "choice3": "<li>",
+    "choice4": "<list>",
+    "answer": "<ul>",
+    "category": "HTML"
+  },
+  {
+    "question": "Which operator is used to get the address of a variable in C?",
+    "choice1": "&",
+    "choice2": "*",
+    "choice3": "->",
+    "choice4": "%",
+    "answer": "&",
+    "category": "C"
+  },
+  {
+    "question": "Which tag is used to create a paragraph in HTML?",
+    "choice1": "<p>",
+    "choice2": "<div>",
+    "choice3": "<span>",
+    "choice4": "<para>",
+    "answer": "<p>",
+    "category": "HTML"
+  },
+  {
+      "category": "Java",
+      "question": "Which keyword is used to point to current instance in Java?",
+      "choice1": "new",
+      "choice2": "super",
+      "choice3": "this",
+      "choice4": "curr",
+      "answer": "this"
+    },
+    {
+        "category": "Python",
+      "question": "Which method is used to define a construtor?",
+      "choice1": "__init__()",
+      "choice2": "__new__()",
+      "choice3": "__create__()",
+      "choice4": "__get__()",
+      "answer": "__init__()"
+    }
+]
